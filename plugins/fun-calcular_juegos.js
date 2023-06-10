@@ -1,84 +1,121 @@
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝙀 @𝙏𝘼𝙂 𝙊 𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀\n𝙏𝘼𝙂 𝙎𝙊𝙈𝙀𝙊𝙉𝙀 @𝙏𝘼𝙂 𝙊𝙍 𝙏𝙔𝙋𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀` 
-
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 @tag 𝙳𝙴 𝙰𝙻𝙶𝚄𝙽 𝙿𝙰𝚁𝚃𝙸𝙲𝙸𝙿𝙰𝙽𝚃𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰*`
 if (command == 'gay2') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *GAY*_ 🏳️‍🌈`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-
- // ------------------------------------------------------------------------------------------------------------------------------------------------
-  
-if (command == 'lesbiana') { 
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES 🏳️‍🌈* *${(500).getRandom()}%* *GAY*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'lesbiana') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES 🏳️‍🌈* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})} 
 if (command == 'pajero') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES 😏💦* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}   
 if (command == 'pajera') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 😏💦`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES 😏💦* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}     
 if (command == 'puto') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}     
 if (command == 'puta') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-
- // ------------------------------------------------------------------------------------------------------------------------------------------------
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()},* *MÁS INFORMACIÓN A SU PRIVADO 🔥🥵 XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}   
 if (command == 'manco') {
-let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------  
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
 if (command == 'manca') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------ 
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 💩*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}     
 if (command == 'rata') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------   
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐁 COME QUESO 🧀*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
 if (command == 'prostituto') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
-// ------------------------------------------------------------------------------------------------------------------------------------------------   
-  
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'peruano') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🦜, ESCONDAN LAS PALOMAS XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'peruana') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🦜, ESCONDAN LAS PALOMAS XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'chileno') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 😠, 𝙷𝙰𝙱𝙻𝙰 𝙳𝙴𝚂𝙿𝙰𝙲𝙸𝙾 𝙼𝙰𝚁𝙰𝙲𝙰 𝙺𝙻𝙸𝙳𝙰 .𝙽𝙾 𝚂𝙴 𝚃𝙴 𝙴𝙽𝚃𝙸𝙴𝙽𝙳𝙴*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'chilena') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 😠, 𝙷𝙰𝙱𝙻𝙰 𝙳𝙴𝚂𝙿𝙰𝙲𝙸𝙾 𝙼𝙰𝚁𝙰𝙲𝙰 𝙺𝙻𝙸𝙳𝙰 .𝙽𝙾 𝚂𝙴 𝚃𝙴 𝙴𝙽𝚃𝙸𝙴𝙽𝙳𝙴*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'argentino') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🤑, 𝙳𝙾𝙽𝙴𝙽𝙻𝙴 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙲𝙾𝙼𝙰 𝙰𝙻 𝙼𝙴𝙽𝙾𝚂 𝚄𝙽 𝙳𝙸𝙰 𝙰𝙻 𝙰𝚁𝙶𝙴𝙽𝚃𝙸𝙽𝙾*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'argentina') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🤑, 𝙳𝙾𝙽𝙴𝙽𝙻𝙴 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙲𝙾𝙼𝙰 𝙰𝙻 𝙼𝙴𝙽𝙾𝚂 𝚄𝙽 𝙳𝙸𝙰 𝙰𝙻 𝙰𝚁𝙶𝙴𝙽𝚃𝙸𝙽𝙰*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'boliviano') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐟, 𝙼𝙰𝙽𝙳𝙴𝙽𝙻𝙴 𝚄𝙽 𝙻𝙸𝙽𝙺 𝙰𝙻 𝙱𝙾𝙻𝙸𝚅𝙸𝙰𝙽𝙾 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙽𝙰𝚅𝙴𝙶𝙴, 𝙰𝚅𝙴𝚁 𝚂𝙸 𝚄𝙽 𝙳𝙸𝙰 𝙻𝙾 𝙷𝙰𝙲𝙴 𝙴𝙽 𝚄𝙽 𝙼𝙰𝚁🌊*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+if (command == 'boliviana') {
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🐟, 𝙼𝙰𝙽𝙳𝙴𝙽𝙻𝙴 𝚄𝙽 𝙻𝙸𝙽𝙺 𝙰𝙻𝙰 𝙱𝙾𝙻𝙸𝚅𝙸𝙰𝙽𝙰 𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙽𝙰𝚅𝙴𝙶𝙴, 𝙰𝚅𝙴𝚁 𝚂𝙸 𝚄𝙽 𝙳𝙸𝙰 𝙻𝙾 𝙷𝙰𝙲𝙴 𝙴𝙽 𝚄𝙽 𝙼𝙰𝚁🌊*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
 if (command == 'prostituta') {
-let juego = `_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-  
- // ------------------------------------------------------------------------------------------------------------------------------------------------   
-if (command == 'love') {
-let juego = `*❤️❤️ MEDIDOR DE AMOR ❤️❤️*\n*_El amor de ${text.toUpperCase()} ES DE ${(500).getRandom()}% Deberias pedirle que sea tu  novia/o ?_*`.trim()
-await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
-//conn.sendHydrated(m.chat, juego, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-//['𝙈𝙚𝙣𝙪 𝙅𝙪𝙚𝙜𝙤𝙨 | 𝙂𝙖𝙢𝙚𝙨 𝙈𝙚𝙣𝙪 🎡', '#juegosmenu'],
-//['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🤭', `${usedPrefix + command} ${text.toUpperCase()}`],
-//['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
-//], m, m.mentionedJid ? {
-//mentions: m.mentionedJid
-//} : {})} 
-}
-handler.help = ['love', 'gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
+conn.reply(m.chat, `
+_*${text.toUpperCase()}* *ES* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()} 🫦👅, QUIEN QUIERE DE SUS SERVICIOS? XD*_
+`.trim(), m, m.mentionedJid ? {
+mentions: m.mentionedJid
+} : {})}
+}         
+handler.help = ['gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['calculator']
-handler.command = /^love|gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto/i
-handler.exp = 100
+handler.command = /^gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto|peruano|peruana|argentino|argentina|boliviano|boliviana|chilena|chileno/i
 export default handler

@@ -1,14 +1,51 @@
-/* By https://github.com/DIEGO-OFC/DORRAT-BOT-MD */
+import translate from '@vitalets/google-translate-api'
+import fetch from 'node-fetch'
+let handler = async (m, { conn, command }) => {
+    
+if (command == 'consejo') {
+    let res = await fetch("https://zenzapis.xyz/randomtext/motivasi?apikey=hdiiofficial");
+ //let res = await fetch("https://supra-api.herokuapp.com/api/conselho?apikey=supraz")
+let json = await res.json()
+let frase = json.result.message
+let frase1 = await translate(frase, { to: 'es', autoCorrect: true })
+await m.reply(`*┏━━━━━━━━━━━━━━━━┓*\n*┠❧  ${frase1.text}*\n*┗━━━━━━━━━━━━━━━━┚*`)}
 
-let handler = async (m, { conn, text}) => {
+if (command == 'fraseromantica') {
+let res = await fetch("https://api.zahwazein.xyz/randomtext/bucinquote?apikey=hdiiofficial")
+let json = await res.json()
+let frase = json.result.message
+let frase1 = await translate(frase, { to: 'es', autoCorrect: true }).catch(_ => null)
+m.reply(`*╭─◆────◈⚘◈─────◆─╮*\n*❥  ${frase1.text}*\n*╰─◆────◈⚘◈─────◆─╯*`)}
 
-m.reply(`╭┄〔 *${wm}* 〕┄⊱\n┊\nდ *"${pickRandom(global.piropo)}"*\n┊\n*╰━━━⊰ 𓃠 ${vs} ⊱━━━━დ*`)
-}
+if (command == 'historiaromantica') {    
+let cerpe = await cerpen(`cinta romantis`)
+let storytime = await translate(cerpe.cerita, { to: 'es', autoCorrect: true }).catch(_ => null)
+let titletime = await translate(cerpe.title, { to: 'es', autoCorrect: true }).catch(_ => null)
+conn.reply(m.chat, `᭥🫐᭢ Título: ${titletime.text}
+᭥🍃᭢ Autor: ${cerpe.author}
+────────────────
+${storytime.text}`, m)}}
 handler.tags = ['frases']
-handler.command = ['piropo']
+handler.command = handler.help = ['consejo', 'fraseromantica', 'historiaromantica']
 export default handler
-
-function pickRandom(list) {
-return list[Math.floor(list.length * Math.random())]}
-
-global.piropo = ["Me gustaría ser papel para poder envolver ese bombón.", "Eres como wifi sin contraseña, todo el mundo te busca", "Quién fuera bus para andar por las curvas de tu corazón.", "Quiero volar sin alas y salir de este universo, entrar en el tuyo y amarte en silencio.", "Quisiera ser mantequilla para derretirme en tu arepa.", "Si la belleza fuera pecado vos ya estarías en el infierno.", "Me Gustaría Ser Un Gato Para Pasar 7 Vidas A Tu Lado.", "Robar Está Mal Pero Un Beso De Tu Boca Sí Me Lo Robaría.", "Qué Hermoso Es El Cielo Cuando Está Claro Pero Más Hermoso Es El Amor Cuando Te Tengo A Mi Lado.", "Bonita, Camina Por La Sombra, El Sol Derrite Los Chocolates.", "Si Fuera Un Correo Electrónico Serías Mi Contraseña.", "Quisiera que fueses monte para darte machete", "Perdí mi número de teléfono ¿Me das el tuyo?", "¿Cómo te llamas para pedirte de regalo a Santa Claus?", " En el cielo hay muchas estrellas, pero la más brillante está en la Tierra y eres tú.", "¿Acaba de salir el sol o es la sonrisa que me regalas hoy?", "No es el ron ni la cerveza, eres tú quien se me ha subido a la cabeza", "Si hablamos de matemáticas eres la suma de todos mis deseos.", "Pareces Google porque tienes todo lo que yo busco.", "Mi café favorito, es el de tus ojos.", "Quiero ser photoshop para retocarte todo el cuerpo.", "Quisiera que fueras cereal, para cucharearte en las mañanas.", "Quien fuera hambre, para darte tres veces al día."]
+async function cerpen(category) {
+return new Promise((resolve, reject) => {
+let title = category.toLowerCase().replace(/[()*]/g, "")
+let judul = title.replace(/\s/g, "-")
+let page = Math.floor(Math.random() * 5)
+axios.get('http://cerpenmu.com/category/cerpen-'+judul+'/page/'+page)
+.then((get) => {
+let $ = cheerio.load(get.data)
+let link = []
+$('article.post').each(function (a, b) { link.push($(b).find('a').attr('href'))})
+let random = link[Math.floor(Math.random() * link.length)]
+axios.get(random).then((res) => {
+let $$ = cheerio.load(res.data)
+let hasil = {
+title: $$('#content > article > h1').text(),
+author: $$('#content > article').text().split('Cerpen Karangan: ')[1].split('Kategori: ')[0],
+kategori: $$('#content > article').text().split('Kategori: ')[1].split('\n')[0],
+lolos: $$('#content > article').text().split('Lolos moderasi pada: ')[1].split('\n')[0],
+cerita: $$('#content > article > p').text()
+}
+resolve(hasil)})})})}
