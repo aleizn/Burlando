@@ -480,7 +480,6 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}instalarbot | installbot_
 ∘ _${usedPrefix}creadora | owner_
 ∘ _${usedPrefix}velocidad | ping_
-∘ _${usedPrefix}serbot | jadibot_
 ∘ _${usedPrefix}bots | listjadibots_
 ∘ _${usedPrefix}detener | stop_
 ∘ _${usedPrefix}reporte *texto*_
