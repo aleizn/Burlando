@@ -45,16 +45,16 @@ const options = {
  space: true,
  maxLength: '0',
 }
-cfonts.say('gatabot\nlite\nmd'.trim(), options)
+cfonts.say('aleizn\nlite\nmd'.trim(), options)
 
 } catch (err) {
-say('GataBot\nLite\nMD', {
+say('Aleizn\nLite\nMD', {
  font: 'chrome',
  align: 'center',
  gradient: ['red', 'magenta']
 })}
 
-say(`Desarrollado por @gata_dios`.trim(), {
+say(`Creado por Aleizn`.trim(), {
  font: 'console',
  align: 'center',
  colors: ['candy']
