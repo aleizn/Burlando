@@ -115,23 +115,23 @@ global.vs = '1.0.2'
 global.vsJB = '3.0'
 
 global.gt = '𝐀𝐥𝐞𝐢𝐳𝐧-𝐌𝐃'
-global.yt = 'https://youtube.com/@gatadios'
+global.yt = 'https://youtube.com/@aleiznn'
 global.yt2 = 'https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s'
-global.ig = 'https://www.instagram.com/gata_dios'
+global.ig = 'https://www.instagram.com/ale.izn_20'
 global.md = 'https://github.com/GataNina-Li/GataBotLite-MD'
 global.fb = 'https://www.facebook.com/groups/872989990425789/'
 
-global.nna = 'https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3' //UPDATE Aleizn-MD
-global.nna2 = 'https://chat.whatsapp.com/IXZ0aBryB1cHjNxe0VIm76' //Help
-global.nn = 'https://chat.whatsapp.com/Kt5EXwUhcO8Ay76CIDLs7d' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/Kt5EXwUhcO8Ay76CIDLs7d' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/K0UCo7igED92q9c1w2DiEH' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/HJLpWS2BDrWCPH6uAUKIRG' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/F63pQpKCsWiF2zFXxhYnky' //Grupo 5 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/CcJKHrxGBWAAH3PiBL07JS' //Grupo 6 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //Grupo 7 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/J8HOf2T3QYeKu3UN9UBkT6' //Grupo 8 COL
-global.paypal = 'https://paypal.me/OficialGD'
+global.nna = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //UPDATE Aleizn-MD
+global.nna2 = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Help
+global.nn = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 5 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 6 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 7 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/HitUqoj58mEJoNKYDKJhUo' //Grupo 8 COL
+global.paypal = 'https://paypal.me/aleizn/'
 global.asistencia = 'Wa.me/51992621601' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
